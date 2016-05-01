@@ -14,7 +14,7 @@ public class MissingListWindow : EditorWindow {
     /// <summary>
     /// Missingがあるアセットを検索してそのリストを表示する
     /// </summary>
-    [MenuItem("Assets/MissingList")]
+	[MenuItem("Tool/MissingList")]
     private static void ShowMissingList() {
         // Missingがあるアセットを検索
         Search ();
