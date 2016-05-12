@@ -14,7 +14,7 @@ public class ReplaceGameObject : EditorWindow
     /// <summary>
     /// ウィンドウを開く
     /// </summary>
-    [MenuItem("Custom/Tools/Replace GameObject")]
+    [MenuItem("Tool/Replace GameObjects By Prefab")]
     public static void Open()
     {
         ReplaceGameObject window = EditorWindow.GetWindow<ReplaceGameObject>();
