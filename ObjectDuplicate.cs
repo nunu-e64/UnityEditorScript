@@ -5,7 +5,7 @@ using UnityEditor;
 
 public class ObjectDuplicate
 {
-	[MenuItem("Edit/DummyDuplicate %d", false, -1)]
+	[MenuItem("Edit/DummyDuplicate %#d", false, -1)]
 	static void CreateEmptyObject()
 	{
 		foreach (var obj in Selection.objects) {
